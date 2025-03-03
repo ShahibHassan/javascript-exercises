@@ -18,6 +18,7 @@ describe('sumAll', () => {
   });
   test('returns ERROR with non-number parameters', () => {
     expect(sumAll(10, '90')).toEqual('ERROR');
+    g;
   });
   test('returns ERROR with non-number parameters', () => {
     expect(sumAll(10, [90, 1])).toEqual('ERROR');
